@@ -1,0 +1,18 @@
+
+-- table of SAS4
+
+CREATE TABLE test1.sas4 (date varchar(100),reward_points int(100),6K int(100),30K int(100),40K int(100),55K int(100),75K int(100),120K int(100),active_clients int(100),expired_clients int(100),daily_activation varchar(100),daily_expiration varchar(100));
+
+-- table of SAS3
+
+CREATE TABLE test1.sas3 (date varchar(100),reward_points int(100),35K int(100),45K int(100),55K int(100),120K int(100),480K int(100),active_clients int(100),expired_clients int(100),daily_activation varchar(100),daily_expiration varchar(100));
+
+-- table of Rcell
+
+CREATE TABLE test1.rcell (date varchar(100),redeem2K int(100),redeem5K int(100),redeem10K int(100),redeem25K int(100),purchase2K int(100),purchase5K int(100),purchase10K int(100),purchase25K int(100),daily_registration int(100),daily_expiration int(100),registered int(100),total_expiry int(100));
+     
+-- table of FTTH
+
+CREATE TABLE test1.ftth (date varchar(100),33K int(100),39K int(100),49K int(100),70K int(100),100K int(100),200K int(100),300K int(100),500K int(100),active int(100),expire int(100),daily_activation varchar(100),daily_expiration varchar(100));
+
+
